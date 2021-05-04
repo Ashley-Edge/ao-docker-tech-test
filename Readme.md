@@ -1,4 +1,4 @@
-# AO Tech Challenge
+# AO Tech Challenge - My solution
 
 Welcome to the AO Tech challenge!
 
@@ -10,20 +10,6 @@ Solutions to each exercise will be evaluated on the following criteria:
 - Legibility
 - Aesthetics
 
-## Pre-requisites
-
-The project provided was built with, and tested against [Docker Desktop](https://www.docker.com/products/docker-desktop) _2.3.0.3_.
-
-## Submission
-
-To submit your work, please fork this repository, and push all commits to your fork upon completion. Once you are happy with your work, send us an email with a link to your repository.
-
-## Exercises
-
-The below exercises involve augmenting an [.NET Core](https://dotnet.microsoft.com/download/dotnet-core/2.2) _2.2_ HTTP web application.
-
-To ensure your focus on the intended challenges, please note that the .NET Core base image and code do not need to be modified.
-
 ### Part 1
 
 The application an on-premise service that needs to be migrated to the cloud. It currently run on a Windows Server 2012 R2 server on a VMware ESXi platform that is due to be decommissioned. In the test and production environment the application is load balanced by a pair of Citrix Netscaler's.
@@ -32,10 +18,11 @@ The team that owns this app has also recently transitioned to a product aligned 
 
 The team have already managed to dockerise the application but would like to get a load balancer provisioned with a view of removing the need for the Netscaler when the application is migrated. They also have a desire the begin breaking up the application and believe this will be an important step on that journey.
 
-In order to complete this you must:
+I have provisioned an NGINX container that routes traffic to the application's container.
 
-- Provision an NGINX container that will route traffic to the application container.
-- Ensure the local developer experience is as seamless as possible, using docker compose.
+![NGINX plan](https://trello-attachments.s3.amazonaws.com/608d7ef51f885986542e0ad7/6091bc74da55476e10e2c8e4/333e99e755b306b53a98bb43f78508af/NGINX_plan2.png)
+
+To ensure that the local developer experience is as seamless as possible, I have used docker compose.
 
 ### Part 2
 
