@@ -73,6 +73,8 @@ Note that the infrastructure as code solution *does not* need to be run within a
 
 ** need in upload CI/CD pipeline **
 
+** Terraform needs work - more time to explore fully **
+
 ## Future Improvements
 
 Including tests for the application would make sure that the application is fully working before it is built-in Jenkins and deployed. I could easily include this step in my Pipeline.
