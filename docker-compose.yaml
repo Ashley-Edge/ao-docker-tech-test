@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+    
+  aspnetapp:
+      build: ./AO-App
+      image: ashleyedge/aspnetapp
+      volumes:
+        - './AO-App/aspnetapp'
+
+  loadbalancer:
+      build: ./NGINX
+      tty: true
+      links:
+          - aspnetapp
+      ports:
+          - target: 80
+            published: 80
+            protocol: tcp
