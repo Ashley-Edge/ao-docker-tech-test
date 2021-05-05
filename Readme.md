@@ -24,10 +24,10 @@ To ensure that the local developer experience is as seamless as possible, I have
 
 ## Future Improvements
 
-One of NGINX's most powerful capabilitles is to be a load balancer over multiple instances. This allows your application to be highly available; distributing the load.
+One of NGINX's most powerful capabilities is to be a load balancer over multiple instances. This allows your application to be highly available; distributing the load.
 
 ![proposed plan](https://trello-attachments.s3.amazonaws.com/608d7ef51f885986542e0ad7/6091bc74da55476e10e2c8e4/8a5c78532d81ba4fcdd0e8b18d602a17/NGINX_plan.png)
 
 ## Notes
 
-To further improve seamlessnes I would like to explore the idea of triggering a webhook to auto docker-compose the application when a developer has pushed improvements to GitHub. I will explore this idea in part 2 of this tech test. I will be using everything from this part to complete further parts.
+To further improve seamlessness I would like to explore the idea of triggering a webhook to auto docker-compose the application when a developer has pushed improvements to GitHub. I will explore this idea in part 2 of this tech test. I will be using everything from this part to complete further parts.
