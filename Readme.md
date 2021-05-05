@@ -20,8 +20,8 @@ Note that the infrastructure as code solution does not need to be run within a p
 
 ## Future Improvements
 
-Including tests for the application would make sure that the application is fully working before it is built in Jenkins and deployed. I could easily include this step in my Pipeline.
+Including tests for the application would make sure that the application is fully working before it is built-in Jenkins and deployed. I could easily include this step in my Pipeline.
 
 ## Notes
 
-I am unfarmilular with TeamCity at this moment (has been added to my investigation list), this is why I had opted to use Jenkins. Since Pushing this repository to my Github account I haven't been able to fully test out part-2 as much as I tested part-1. I will work on this even after i submit this test.... I am a completionist.
+I am unfamiliar with TeamCity at this moment (has been added to my investigation list), this is why I had opted to use Jenkins. Since Pushing this repository to my Github account I haven't been able to fully test out part-2 as much as I tested part-1. I will work on this even after I submit this test.... I am a completionist.
