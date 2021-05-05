@@ -37,7 +37,7 @@ In order to complete this you must:
 - Provision an NGINX container that will route traffic to the application container.
 - Ensure the local developer experience is as seamless as possible, using docker compose.
 
-## My Solution: Part 1
+## My Solution: Part 1 (code found on part-1 branch)
 
 I have provisioned an NGINX container that routes traffic to the application's container.
 
@@ -69,7 +69,7 @@ In order to complete this you must:
 
 Note that the infrastructure as code solution *does not* need to be run within a pipeline for this part of the experiment - The team are happy to run the terraform locally, for now.
 
-## My Solution: Part 2
+## My Solution: Part 2 (code found on part-2 branch)
 
 ** need in upload CI/CD pipeline **
 
