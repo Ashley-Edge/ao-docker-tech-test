@@ -9,7 +9,7 @@ services:
 
   nginx:
       build: ./NGINX
-      tty: true
+      image: ashleyedge/nginx
       links:
           - aspnetapp
       ports:
