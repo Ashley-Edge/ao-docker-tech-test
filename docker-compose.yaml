@@ -7,7 +7,7 @@ services:
       volumes:
         - './AO-App/aspnetapp'
 
-  loadbalancer:
+  nginx:
       build: ./NGINX
       tty: true
       links:
